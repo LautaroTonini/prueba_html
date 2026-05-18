@@ -22,8 +22,7 @@ def hello_world():
 
 @app.route('/home')
 def home():
-    nombre = "Usuario"
-    return render_template("index.html", nombre=nombre)
+    return render_template("index.html")
 
 @app.route('/users')
 def users():

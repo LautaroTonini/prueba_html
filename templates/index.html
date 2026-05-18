@@ -1,5 +1,18 @@
-<h2>Estacionamiento</h2>
-<body>
-    <p>Bienvenido {{ nombre }} al sistema de estacionamiento. Aquí puedes gestionar tus vehículos y clientes de manera eficiente.</p>
-    <p>Su edad es: {{ edad }}</p>
-</body>
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <title>Lautaro Tonini</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    </head>
+    <body>
+        <h1>Bienvenidos a mi pagina!</h1>
+        <div class="card" style="max-width: 18rem;">
+        <img class="card-img-top" src="{{ url_for('static', filename='img/imagen1.png') }}" alt="Card image cap" width="200" height="auto">
+        <div class="card-body">
+            <h5 class="card-title">Lautaro Tonini</h5>
+            <p> Edad: 22 años</p>
+            <p> Estudiante de Desarrolador de Software</p>
+            <p> Bartender profesional</p>
+        </div>
+    </body>
