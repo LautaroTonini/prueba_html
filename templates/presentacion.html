@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Presentación Personal</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+    <h1>Bienvenidos a mi pagina!</h1>
+
+    <img src="{{ url_for('static', filename='img/imagen1.png') }}"
+         alt="Una imagen personal o ilustrativa"
+         style="width: 300px; height: auto;">
+
+    <h2>Sobre mí</h2>
+
+    <p>● Un párrafo describiéndote</p>
+
+    <p>● Lista de hobbies:</p>
+
+    <ol type ="a">
+        <li>No se 1</li>
+        <li>No se 2</li>
+        <li>No se 3</li>
+    </ol>
+
+    <a href="https://github.com/LautaroTonini" target="_blank">
+        Mi perfil de GitHub!
+    </a>
+
+</body>
+</html>
